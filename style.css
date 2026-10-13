@@ -24,7 +24,7 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;   /* padding and border stay INSIDE the width you set */
+    box-sizing: border-box;   
 }
 
 
@@ -71,7 +71,7 @@ a {
 }
 
 a:focus-visible {
-    outline: 3px solid var(--accent); /* visible focus ring for keyboard users */
+    outline: 3px solid var(--accent); 
     outline-offset: 3px;
 }
 
